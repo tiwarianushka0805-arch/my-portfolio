@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anushka Tiwari — Personal Profile</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+  <header class="hero">
+    <section id="profile" aria-labelledby="profile-heading">
+      <h2 id="profile-heading">Profile Picture</h2>
+      <img
+        class="profile-photo"
+        src="profile.svg"
+        alt="Profile picture of Anushka Tiwari"
+      >
+    </section>
+    <div class="hero-text">
+      <p class="eyebrow">Anushka Tiwari: AI ML Engineer
+      </p>
+      <h1>Anushka Tiwari</h1>
+      <p class="intro"> A B.Tech CSE (AI & ML) student at JECRC University.
+        I explore programming, learn new technologies,and build projects to improve my skills in software development, artificial intelligence.</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
+      <p>
+      </p>
+      <p>
+     I'm Anushka Tiwari, a B.Tech CSE (AI & ML) student at JECRC University. I'm passionate about technology, programming, and data visualization. I enjoy learning new skills, exploring AI and machine learning, and creating projects that turn ideas into practical solutions. Currently, I'm strengthening my programming skills and working on improving my knowledge of web development and data visualization.</p>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+      <ul>
+        <li> C++ Programming</li>
+        <li> Python Programming</li>
+        <li> Power BI Basics</li>
+        <li> DSA</li>
+        <li> Data Visualization</li>
+      </ul>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">My Projects</h2>
+      <label class="project-search-label" for="projectSearch">Search projects</label>
+      <input
+        type="search"
+        id="projectSearch"
+        placeholder="Search by name or technology..."
+        aria-controls="projectList"
+        autocomplete="off"
+      >
+      <p id="noProjectsFound" class="no-projects-found" hidden>No projects found.</p>
+      <ul class="projects" id="projectList">
+        <li data-name="Python Programs Collection" data-tech="Python HTML CSS">
+          <a href="https://github.com/tiwarianushka0805-arch/Python_basics_25BCON0855">Python Programs Collection</a>
+          <p> Description: A collection of Python programs, including factorial, Fibonacci, and other basic programming examples.</p>
+          <p class="project-tech">Technologies: Python</p>
+        </li>
+        <li data-name="Messy Python Code Improvement" data-tech="Python Power BI">
+          <a href="https://github.com/tiwarianushka0805-arch/messy-python-code-improvement"> Messy Python Code Improvement</a>
+          <p>Description: A Python project demonstrating how messy code can be reviewed and improved using AI.</p>
+          <p class="project-tech">Technologies: Python, Google Colab, AI</p>
+        </li>
+        <li data-name="Bug Fixing Using Cursor AI" data-tech="HTML CSS JavaScript">
+          <a href="https://github.com/tiwarianushka0805-arch/bug-fixing-using-cursor-ai"> Bug Fixing Using Cursor AI</a>
+          <p>  Description: A debugging project demonstrating how Cursor AI can identify and help fix a logical error in a Python program.</p>
+          <p class="project-tech">Technologies: Python, Cursor AI, Google Colab</p>
+        </li>
+        <li data-name="Interactive Quiz Application" data-tech="HTML CSS JavaScript">
+          <a href="https://github.com/tiwarianushka0805-arch/interactive-quiz-application">Interactive Quiz Application</a>
+          <p>Description: An interactive quiz website where users answer questions, check their answers, and view their final score.</p>
+          <p class="project-tech">Technologies: HTML, CSS, JavaScript</p>
+        </li>
+        <li data-name="Book Reading List Application" data-tech="HTML CSS JavaScript">
+          <a href="https://github.com/tiwarianushka0805-arch/reading-list-app">Book Reading List Application</a>
+          <p>Description: A responsive reading list app that lets users add books, update reading status, filter books, delete books, and view summary counts.</p>
+          <p class="project-tech">Technologies: HTML, CSS, JavaScript</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <section id="aiChatSection" class="ai-chat">
+    <h2>Ask My AI Assistant</h2>
+  
+    <p>
+      Ask questions about this portfolio,
+      projects, and technologies.
+    </p>
+  
+    <div
+      id="chatMessages"
+      aria-live="polite"
+    ></div>
+  
+    <div class="chat-controls">
+      <input
+        type="text"
+        id="userInput"
+        placeholder="Ask a question..."
+      />
+  
+      <button id="sendButton" type="button">
+        Send
+      </button>
+    </div>
+  
+    <p id="chatStatus" role="status"></p>
+  
+    <p class="chat-note">
+      AI chat is available during the local
+      classroom demonstration only.
+    </p>
+  </section>
+  <footer>
+    <section id="weather">
+      <h2>Weather</h2>
+  
+      <input
+          type="text"
+          id="cityInput"
+          placeholder="Enter a city"
+      >
+  
+      <button id="weatherButton">
+          Get Weather
+      </button>
+  
+      <div id="weatherResult">
+          Enter a city to see the weather.
+      </div>
+  </section>
+    
+<p>
+  Gmail:
+  <a href="mailto:tiwarianushka0805@gmail.com">
+    tiwarianushka0805@gmail.com
+  </a>
+</p>
+
+<p>
+  GitHub:
+  <a href="https://github.com/tiwarianushka0805-arch"
+     target="_blank"
+     rel="noopener noreferrer">
+    Visit My GitHub Profile
+  </a>
+</p>
+
+  <button id="themeToggle">Switch to Dark Mode</button>
+  <script src="script.js"></script>
+  <script src="config.js"></script>
+<script src="Chatbot.js"></script>
+</body>
+</html>
