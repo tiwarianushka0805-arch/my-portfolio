@@ -1,69 +1,34 @@
-# Portfolio Project Audit
+# Portfolio Project Audit Report
 
-## Task 1: Personalize Portfolio Website
-- [ ] Full name and personal introduction added
-- [ ] Educational background and technical skills added
-- [ ] Profile photograph or suitable personal image added
-- [ ] GitHub profile and contact information added
-- [ ] Visual design, navigation, and responsiveness checked
-- [ ] No dummy names or unchanged placeholders remain
+## 1. Project Overview
 
-## Task 2: Add All Previous GitHub Projects
-- [ ] Python Programs Collection
-- [ ] Messy Python Code Improvement
-- [ ] Bug Fixing Using Cursor AI
-- [ ] Interactive Quiz Application (Lecture 10)
-- [ ] Book Reading List Application (Lecture 11)
-- [ ] Each project has a separate card and brief description
-- [ ] Technologies used are displayed for each project
-- [ ] Working GitHub repository links added
-- [ ] Live application links added wherever available
-- [ ] README files updated where required
+The purpose of this audit is to review the personal portfolio website before submitting the project. It covers the website's content, functionality, GitHub repository, documentation, and security.
 
-## Task 3: Interactive Website Functionality
-- [ ] Project search by name implemented
-- [ ] Project search by technology implemented
-- [ ] Search results update according to entered text
-- [ ] Light/dark mode toggle implemented
-- [ ] Website tested on desktop and mobile
-- [ ] Navigation and interactive elements tested
+## 2. GitHub Repository Management
 
-## Task 4: Push Portfolio to GitHub
-- [ ] GitHub repository created for the portfolio
-- [ ] All required project files added
-- [ ] Sensitive files and API secrets excluded
-- [ ] Changes committed with meaningful commit messages
-- [ ] Files pushed successfully to the GitHub repository
-- [ ] README.md includes project description
-- [ ] Technologies used documented
-- [ ] Implemented features documented
-- [ ] Setup and installation instructions added
-- [ ] Live website link included after deployment
+The portfolio source code and required assets must be stored in a GitHub repository. Git is used to track changes, create commits, and push the latest version of the project to GitHub. The repository should contain the necessary files and be accessible to the teacher.
 
-## Task 5: Deploy Website Using Vercel
-- [ ] Portfolio GitHub repository connected to Vercel
-- [ ] Website deployed successfully
-- [ ] Public deployment URL verified
-- [ ] Project repository links tested
-- [ ] Images and assets load correctly
-- [ ] Search and filter functionality tested
-- [ ] Light/dark mode tested
-- [ ] Desktop and mobile layouts tested
+## 3. Project Documentation
 
-## Task 6: Integrate API-Based Portfolio Chatbot
-- [ ] Visible chatbot interface implemented
-- [ ] API integration completed
-- [ ] Chatbot answers questions using portfolio information
-- [ ] Responses cover skills, education, and projects
-- [ ] Useful error messages displayed when API requests fail
-- [ ] API key stored securely on the backend
-- [ ] No real API keys exposed in frontend files or public GitHub history
-- [ ] Chatbot tested on the live Vercel deployment
+A `README.md` file should explain the purpose of the portfolio, technologies used, major features, and instructions for opening or running the project. It should also include the GitHub repository link and the live website URL once the website has been deployed.
 
-## Final Verification
-- [ ] All six tasks reviewed
-- [ ] No broken links or missing assets
-- [ ] No placeholder content remains
-- [ ] GitHub repository is accessible
-- [ ] Live portfolio is publicly accessible
-- [ ] Final website tested before submission
+## 4. Website Features
+
+The portfolio includes personal information, educational details, technical skills, and project cards. Its interactive features include project search and filtering, light/dark mode, weather information, and an AI-powered chatbot. These features should be tested to ensure they work as intended.
+
+## 5. API Security
+
+API keys and other confidential information must not be exposed in public source code. Secret files should be excluded using `.gitignore`. The chatbot API key should be handled securely on the backend, and weather API credentials should also be protected when required. Previously committed secrets must be addressed in the Git history as well.
+
+## 6. Audit Checklist
+
+- [x] GitHub repository created.
+- [x] Required source code and assets pushed to GitHub.
+- [x] README.md completed.
+- [x] Website features verified.
+- [x] Repository verified and ready for submission.
+
+## 7. Conclusion
+
+The audit helps ensure that the portfolio project is properly documented, safely stored on GitHub, and ready for submission. Any incomplete items should be addressed before the final project is submitted.
+
