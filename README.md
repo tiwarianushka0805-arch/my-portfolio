@@ -56,5 +56,5 @@ If the project uses a simple HTML, CSS, and JavaScript setup, you may be able to
 
 **Name:** ANUSHKA TIWARI
 
-**GitHub:** [My GitHub Profile](REPLACE_WITH_YOUR_GITHUB_PROFILE_URL)
+**GitHub:** [My GitHub Profile](https://github.com/tiwarianushka0805-arch)
 
