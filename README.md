@@ -42,7 +42,7 @@ Open the live portfolio website using the link below.
 
 ## GitHub Repository
 
-**Source Code:** [View the GitHub Repository](REPLACE_WITH_YOUR_GITHUB_REPOSITORY_URL)
+**Source Code:** [View the GitHub Repository](https://github.com/tiwarianushka0805-arch/my-portfolio)
 
 ## How to Run Locally
 
