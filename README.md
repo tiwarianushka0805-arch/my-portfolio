@@ -3,7 +3,7 @@
 A personalized, responsive portfolio website built with HTML5, CSS3, JavaScript, and an integrated AI Chatbot powered by Google Gemini API and Vercel Serverless Functions.
 
 ## 🚀 Live Demo
-- **Portfolio Website:** [https://anushka-tiwari-portfolio.vercel.app](https://anushka-tiwari-portfolio.vercel.app)
+- **Portfolio Website:** [https://anushka-tiwari-portfolio.vercel.app](https://my-portfolio-anushka-tiwari.vercel.app/)
 - **GitHub Repository:** [https://github.com/anushkatiwari/personal-portfolio](https://github.com/anushkatiwari/personal-portfolio)
 
 ## 📌 Project Features
