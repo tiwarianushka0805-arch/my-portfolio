@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anushka Tiwari | Portfolio & AI Assistant</title>
+  <meta name="description" content="Personal portfolio of Anushka Tiwari showcasing software engineering projects, Python collections, interactive apps, and an AI-powered portfolio chatbot." />
+  
+  <!-- Google Fonts & Lucide Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-theme="dark">
+
+  <!-- Navigation -->
+  <header>
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-box">AT</span>
+        <span class="logo-text">Anushka Tiwari</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#chatbot" class="nav-chatbot-btn"><i data-lucide="bot"></i> AI Chatbot</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle Dark/Light Mode" title="Toggle Theme">
+          <i data-lucide="sun" id="themeIcon"></i>
+        </button>
+        <button id="mobileMenuBtn" class="icon-btn mobile-only" aria-label="Open Menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Section 1: Home (Hero) -->
+    <section id="home" class="hero-section">
+      <div class="hero-content">
+        <div class="badge">
+          <span class="pulse-dot"></span> Computer Science Student & Developer
+        </div>
+        <h1>Hi, I'm <span class="gradient-text">Anushka Tiwari</span></h1>
+        <p class="hero-bio">
+          Aspiring Software Engineer passionate about building interactive web applications, writing clean Python code, and leveraging modern AI workflows with Cursor AI to solve real-world problems.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary"><i data-lucide="folder-git-2"></i> View My Projects</a>
+          <a href="#chatbot" class="btn btn-secondary"><i data-lucide="sparkles"></i> Talk with My AI</a>
+          <a href="https://github.com/tiwarianushka0805-arch" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="heroGithubLink"><i data-lucide="github"></i> GitHub</a>
+        </div>
+      </div>
+      <div class="hero-image-wrap">
+        <!-- Avatar Placeholder Container with person icon inside -->
+        <div class="avatar-ring default-avatar-placeholder" style="display: flex; justify-content: center; align-items: center; width: 180px; height: 180px; border-radius: 50%; border: 4px solid #FFFFFF; background-color: var(--secondary-dark-blue, #00204A); overflow: hidden;">
+          <i data-lucide="user" class="default-avatar-icon" style="font-size: 4rem; color: #FFFFFF; width: 90px; height: 90px;"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: About Me -->
+    <section id="about" class="section">
+      <div class="section-header">
+        <span class="section-tag">Background</span>
+        <h2>About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="card about-card">
+          <div class="card-icon"><i data-lucide="graduation-cap"></i></div>
+          <h3>Education</h3>
+          <p><strong>Bachelor of Technology (B.Tech) in Computer Science & Engineering</strong></p>
+          <p class="text-muted">Focused on Data Structures, Algorithms, Object-Oriented Programming, Database Management, and AI-assisted development tools.</p>
+        </div>
+        <div class="card about-card">
+          <div class="card-icon"><i data-lucide="code-2"></i></div>
+          <h3>Engineering Philosophy</h3>
+          <p>I believe in writing clean, self-documenting code. Through coursework and practical labs, I have learned the value of refactoring messy logic, rigorous bug hunting with Cursor AI, and continuous deployment.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Skills -->
+    <section id="skills" class="section">
+      <div class="section-header">
+        <span class="section-tag">Proficiencies</span>
+        <h2>Technical Skills</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="card skill-group">
+          <h3><i data-lucide="terminal"></i> Languages</h3>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">JavaScript (ES6+)</span>
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+        <div class="card skill-group">
+          <h3><i data-lucide="cpu"></i> AI & Development Tools</h3>
+          <div class="tags">
+            <span class="tag">Cursor AI</span>
+            <span class="tag">Git & GitHub</span>
+            <span class="tag">Vercel</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Chatbot APIs</span>
+          </div>
+        </div>
+        <div class="card skill-group">
+          <h3><i data-lucide="layers"></i> Core Competencies</h3>
+          <div class="tags">
+            <span class="tag">Data Structures</span>
+            <span class="tag">Algorithms</span>
+            <span class="tag">Code Refactoring</span>
+            <span class="tag">Bug Fixing</span>
+            <span class="tag">Responsive Web Design</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Projects -->
+    <section id="projects" class="section">
+      <div class="section-header">
+        <span class="section-tag">Work & Labs</span>
+        <h2>My Projects</h2>
+        <p class="section-subtext">Completed during coursework and lab assessments, showcasing algorithms, refactoring, debugging with Cursor AI, and interactive web apps.</p>
+      </div>
+
+      <!-- Search and Filter Controls -->
+      <div class="project-controls">
+        <div class="search-box">
+          <i data-lucide="search" class="search-icon"></i>
+          <input type="text" id="projectSearch" placeholder="Search projects by title, description, or tech (e.g. 'Python', 'Quiz', 'Book')..." aria-label="Search Projects" />
+          <button id="clearSearchBtn" class="clear-btn" title="Clear search" style="display: none;">&times;</button>
+        </div>
+        <div class="filter-pills" id="filterPills">
+          <button class="pill active" data-filter="all">All (5)</button>
+          <button class="pill" data-filter="python">Python</button>
+          <button class="pill" data-filter="cursor">Cursor AI</button>
+          <button class="pill" data-filter="web">Web Apps</button>
+        </div>
+      </div>
+
+      <!-- Project Cards Grid -->
+      <div class="projects-grid" id="projectsContainer">
+        <!-- Injected dynamically via script.js -->
+      </div>
+      <div id="noResults" class="no-results" style="display: none;">
+        <i data-lucide="search-x"></i>
+        <p>No projects match your search criteria. Try a different keyword!</p>
+      </div>
+    </section>
+
+    <!-- Section 5: AI Chatbot -->
+    <section id="chatbot" class="section chatbot-section">
+      <div class="section-header">
+        <span class="section-tag">Interactive AI</span>
+        <h2>Portfolio AI Assistant</h2>
+        <p class="section-subtext">Ask anything about my background, skills, Python programs, debugging exercises, or project details!</p>
+      </div>
+
+      <div class="chatbot-container card">
+        <div class="chatbot-header">
+          <div class="bot-info">
+            <div class="bot-avatar"><i data-lucide="bot"></i></div>
+            <div>
+              <h4>Anushka's AI Representative</h4>
+              <span class="status-online"><span class="status-indicator"></span> Grounded in Portfolio Knowledge</span>
+            </div>
+          </div>
+          <button id="clearChatBtn" class="icon-btn-sm" title="Reset conversation"><i data-lucide="rotate-ccw"></i></button>
+        </div>
+
+        <div class="chat-messages" id="chatMessages">
+          <div class="message bot-msg">
+            <div class="msg-bubble">
+              Hello! 👋 I am Anushka's AI portfolio assistant. You can ask me questions such as:
+              <ul>
+                <li>"Who is Anushka Tiwari?"</li>
+                <li>"What projects has she completed?"</li>
+                <li>"Explain the Python programs collection."</li>
+                <li>"What was corrected in the buggy code project?"</li>
+                <li>"How does the reading list work?"</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Suggested Question Chips -->
+        <div class="chat-suggestions" id="chatSuggestions">
+          <button class="chip" data-prompt="Who are you and what are your skills?">Who are you & skills?</button>
+          <button class="chip" data-prompt="Explain your Python programs collection.">Explain Python programs</button>
+          <button class="chip" data-prompt="What was corrected in the buggy code project using Cursor AI?">Bug fixing in Cursor</button>
+          <button class="chip" data-prompt="How does the reading list application work?">Reading list app</button>
+          <button class="chip" data-prompt="Where can I find your GitHub profile?">GitHub link</button>
+        </div>
+
+        <form id="chatForm" class="chat-input-area">
+          <input type="text" id="chatInput" placeholder="Type a question about Anushka's portfolio..." autocomplete="off" required />
+          <button type="submit" id="chatSendBtn" class="btn btn-primary btn-send">
+            <span class="btn-text">Send</span>
+            <i data-lucide="send"></i>
+          </button>
+        </form>
+        <div class="chat-error" id="chatError" style="display: none;"></div>
+      </div>
+    </section>
+
+    <!-- Section 6: Contact Information -->
+    <section id="contact" class="section">
+      <div class="section-header">
+        <span class="section-tag">Connect</span>
+        <h2>Contact Information</h2>
+      </div>
+      <div class="contact-card card">
+        <p>I am always open to discussing new opportunities, project ideas, or collaborating on open source software.</p>
+        <div class="contact-items">
+          <a href="mailto:tiwarianushka0805@gmail.com" class="contact-item">
+            <i data-lucide="mail"></i>
+            <div>
+              <span class="label">Email</span>
+              <span class="val">tiwarianushka0805@gmail.com</span>
+            </div>
+          </a>
+          <a href="https://github.com/tiwarianushka0805-arch" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <i data-lucide="github"></i>
+            <div>
+              <span class="label">GitHub</span>
+              <span class="val">github.com/anushkatiwari</span>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/anushka-tiwari-8a02993ab/" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <i data-lucide="linkedin"></i>
+            <div>
+              <span class="label">LinkedIn</span>
+              <span class="val">linkedin.com/in/anushkatiwari</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <p>© <span id="currentYear"></span> Anushka Tiwari. Built for Practical Internal Assessment.</p>
+      <p class="text-muted">Built with HTML5 • CSS3 • JavaScript • Vercel • Chatbot API</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
