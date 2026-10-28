@@ -4,7 +4,7 @@ A personalized, responsive portfolio website built with HTML5, CSS3, JavaScript,
 
 ## 🚀 Live Demo
 - **Portfolio Website:** [https://anushka-tiwari-portfolio.vercel.app](https://my-portfolio-anushka-tiwari.vercel.app/)
-- **GitHub Repository:** [https://github.com/anushkatiwari/personal-portfolio](https://github.com/anushkatiwari/personal-portfolio)
+- **GitHub Repository:** [https://github.com/anushkatiwari/personal-portfolio](https://github.com/tiwarianushka0805-arch/my-portfolio)
 
 ## 📌 Project Features
 1. **Personalized Identity (Task 1):** Full profile details, CSE educational background, skills, and contact links.
